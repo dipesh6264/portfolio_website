@@ -1,0 +1,30 @@
+nav{display: flex;
+flex-direction: column !important;
+justify-content: center!important;}
+.navbar{
+    justify-content: center !important;
+}
+
+nav div{text-align: center!important;
+}
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 3px 14px !important;
+}
+
+#home{
+
+    padding:3px 10px !important;
+    
+}
+
+#services{
+    height: 260px !important;
+}
+
+.box{width: 95% !important;}
+
+#contact-box form{
+    width: 70% !important;
+}
