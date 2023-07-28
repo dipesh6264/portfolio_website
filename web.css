@@ -1,5 +1,7 @@
 *{margin: 0;
-padding: 0;}
+padding: 0;
+font-family: 'Delicious Handrawn', cursive;
+font-family: 'Josefin Sans', sans-serif;}
 body{
     background-color: black;  
 }
@@ -46,6 +48,7 @@ nav div{
 }
 
 .name{
+  padding-top: 8px !important;
     color: rgb(13, 84, 126)!important;
 }
 #intro{
@@ -251,6 +254,7 @@ img {
   line-height: 1.5;
   margin-bottom: 1.25rem;    
   font-weight: 400;
+  justify-content: center;
 }
 .made_by{
   font-weight: 400;
@@ -326,7 +330,7 @@ section ul li{list-style: none;
 padding: 8px;}
 
 .h-primary{
-    padding-top: 40px;
+    padding-top: 45px;
     /* padding: 9px; */
     color: rgb(204, 201, 201);
     
