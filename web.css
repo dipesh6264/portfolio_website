@@ -89,18 +89,18 @@ section button:hover{
     top:0px;
     left:0px;
     width: 100%;  } */
-#project{
-    /* background:url(https://img.freepik.com/free-photo/abstract-dark-blue-futuristic-digital-grid-background_53876-104051.jpg?size=626&ext=jpg&ga=GA1.2.123733343.1681604264&semt=sph) no-repeat center center/cover;  */
-    opacity: 0.9;
-}
+
 #contact{
     /* background:url(https://img.freepik.com/free-photo/abstract-dark-blue-futuristic-digital-grid-background_53876-104051.jpg?size=626&ext=jpg&ga=GA1.2.123733343.1681604264&semt=sph) no-repeat center center/cover;  */
-    opacity: 0.9;
+    margin-top: 100px;
 
+}
+#projects{
+  margin-top: -100px;
 }
 #services{
     /* background:url(https://img.freepik.com/free-photo/abstract-dark-blue-futuristic-digital-grid-background_53876-104051.jpg?size=626&ext=jpg&ga=GA1.2.123733343.1681604264&semt=sph) no-repeat center center/cover;  */
-    opacity: 0.9;
+    
     height: 156px;
 }
 
@@ -263,12 +263,21 @@ img {
 
 
 .center{text-align: center;}
+.boxes{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.boxes div{
+  display:inline-block;
+
+}
 .box{
   background: linear-gradient(to bottom left, rgb(0, 3, 5)40%, rgb(13, 84, 126) 100%);
     height: fit-content;
-    width: 70%;
+    width: 30%;
     border: 2px solid black;
-    margin: auto;
     margin-top: 5px ;
     margin-bottom: 5px;
     box-shadow: 2px 2px rgb(4, 116, 185) ;
@@ -314,7 +323,8 @@ section ul li{list-style: none;
 padding: 8px;}
 
 .h-primary{
-    padding: 9px;
+    padding-top: 40px;
+    /* padding: 9px; */
     color: rgb(204, 201, 201);
     
     font-size:xx-large;
