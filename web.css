@@ -264,15 +264,16 @@ img {
 
 .center{text-align: center;}
 .box{
-   background-color: gray;
+  background: linear-gradient(to bottom left, rgb(0, 3, 5)40%, rgb(13, 84, 126) 100%);
     height: fit-content;
     width: 70%;
     border: 2px solid black;
     margin: auto;
     margin-top: 5px ;
     margin-bottom: 5px;
-    box-shadow: 2px 2px green ;
+    box-shadow: 2px 2px rgb(4, 116, 185) ;
     border-radius: 5px;
+    color: #ffffff;
 }
 .edu{
     display: flex;
