@@ -284,6 +284,9 @@ img {
     border-radius: 5px;
     color: #ffffff;
 }
+.boxes :hover{
+  background: linear-gradient(to bottom left, rgb(13, 84, 126)5%, rgb(12, 12, 12) 100%);
+}
 .edu{
     display: flex;
     flex-direction: column;
