@@ -4,7 +4,9 @@ justify-content: center!important;}
 .navbar{
     justify-content: center !important;
 }
-
+#photo{
+    display: none;
+}
 nav div{text-align: center!important;
 }
 nav ul li a {
@@ -12,11 +14,17 @@ nav ul li a {
     display: block;
     padding: 3px 14px !important;
 }
-
+#logo{
+    display: inline !important;
+    justify-content: center;
+    background-color: black;
+    padding-left: 134px !important;
+    margin-left: 0px !important;
+}
 #home{
 
     padding:3px 10px !important;
-    
+    margin-left: 0px !important;
 }
 
 #services{
