@@ -374,3 +374,10 @@ label {
 
 #foot ul li a:hover{
   color: rgb(13, 84, 126);}
+#photo{
+overflow: hidden;
+transition: all ease 1s;
+}
+#photo:hover img{
+  scale:1.03;
+}
