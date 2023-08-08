@@ -370,3 +370,7 @@ label {
   cursor: default;
   color: #ffffff;
 }
+
+
+#foot ul li a:hover{
+  color: rgb(13, 84, 126);}
